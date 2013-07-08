@@ -38,7 +38,9 @@ while running:
 			running = 0
 		elif event.type == pygame.MOUSEDOWN:
 
-	screen.fill(bgcolor)
+	for tower in Tower[]:
+		tower.
+	"""screen.fill(bgcolor)"""
 
 	pygame.display.flip()
 	clock.tick(240)
